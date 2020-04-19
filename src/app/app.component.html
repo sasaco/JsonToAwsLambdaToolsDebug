@@ -1,0 +1,27 @@
+
+ <div class="container">
+
+  <h1>JSON 形式を AWS Lambda Tool のデバッグで用いる形式に変換する</h1>
+
+  <div>
+    <label>JSON</label>
+    <div>
+      <textarea [(ngModel)]="in" id="json_in"></textarea>
+      <!-- <input placeholder="JSON" type="text" [(ngModel)]="in" id="json_in">  -->
+    </div>
+  </div>
+
+  <div>
+    <button (click)="onClickMe()">Submit</button>
+  </div>
+
+  <div>
+    <label>AWS Lambda Tool のデバッグで用いる形式</label>
+    <div>
+      <textarea [(ngModel)]="out" id="json_out"></textarea>
+    </div>
+  </div>
+
+</div>
+
+
