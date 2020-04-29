@@ -4,11 +4,22 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build --prod --base-href \"https://structuralengine.github.io/JsonToAwsLambdaToolsDebug/\"",
+    "build": "ng build --prod --base-href \"https://sasaco.github.io/JsonToAwsLambdaToolsDebug/\" && angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "description": "Json To Lambda Debug",
+  "author": {
+    "name": "sasaco",
+    "email": "sasaicco@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular 9",
+    "typescript",
+    "sass"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.1",
